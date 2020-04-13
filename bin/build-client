@@ -1,5 +1,0 @@
-#!/bin/bash 
-
-cd public 
-../node_modules/.bin/imba-rollup 
-cd -
