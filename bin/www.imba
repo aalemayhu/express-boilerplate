@@ -5,7 +5,7 @@
  */
 
 var app = require('../app')
-var debug = require('debug')('eldij:server')
+var debug = require('debug')('your-app-name:server')
 var http = require('http')
 
 
