@@ -57,7 +57,7 @@ def onListening
 app.set('port', port)
 
 var server = http.createServer(app)
-
+console.log(`http://localhost:{port}`)
 server.listen(port)
 server.on('error', onError)
 server.on('listening', onListening)
